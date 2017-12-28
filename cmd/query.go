@@ -53,20 +53,33 @@ var queryCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		client, c := initRedis()
 		cities := loadCities()
-		var wg sync.WaitGroup
-
-		rand.Seed(time.Now().UTC().UnixNano())
+		iterations = iterations / 100
 		for i := 0; i < iterations; i++ {
-			wg.Add(1)
-
-			go doGeoSearch(cities[rand.Intn(len(cities))], client, c)
-			doPipeHM(client, c, &wg)
+			run100(cities, client, c)
 		}
-		wg.Wait()
 	},
 }
 
+func run100(cities []City, client *redis.Client, c chan []redis.GeoLocation) {
+	var wg sync.WaitGroup
+
+	rand.Seed(time.Now().UTC().UnixNano())
+	if v {
+		defer timeTrack(time.Now(), "100 queries")
+	}
+	for i := 0; i < 100; i++ {
+
+		wg.Add(1)
+
+		go doGeoSearch(cities[rand.Intn(len(cities))], client, c)
+		go doPipeHM(client, c, &wg)
+	}
+	wg.Wait()
+
+}
+
 func loadCities() []City {
+
 	jsonFile, _ := os.Open("data/cities_short.json")
 	defer jsonFile.Close()
 
@@ -84,6 +97,7 @@ func initRedis() (*redis.Client, chan []redis.GeoLocation) {
 		Addr:     "localhost:6379",
 		Password: "",
 		DB:       0,
+		PoolSize: 15,
 	})
 
 	c := make(chan []redis.GeoLocation)
@@ -95,10 +109,11 @@ func initRedis() (*redis.Client, chan []redis.GeoLocation) {
 func doGeoSearch(loc City, client *redis.Client, c chan<- []redis.GeoLocation) {
 	// TODO:  fix hardcoded query
 	// fmt.Println("doGeoSearch(loc, client, c)")
-	q := redis.GeoRadiusQuery{Unit: "mi", Radius: 50, Count: 20}
+
+	q := redis.GeoRadiusQuery{Unit: "mi", Radius: 50, Count: 50}
 	res, err := client.GeoRadiusRO("places", loc.Longitude, loc.Latitude, &q).Result()
 	if err != nil {
-		fmt.Println(err)
+		fmt.Println("Geoquery Err: ", err)
 	} else {
 		c <- res
 	}
@@ -106,6 +121,9 @@ func doGeoSearch(loc City, client *redis.Client, c chan<- []redis.GeoLocation) {
 
 func doPipeHM(client *redis.Client, c <-chan []redis.GeoLocation, wg *sync.WaitGroup) {
 	defer wg.Done()
+	// if v {
+	// 	defer timeTrack(time.Now(), "HM Pipe Query")
+	// }
 
 	// fmt.Println("DoPipe Started")
 	list := <-c
