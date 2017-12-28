@@ -68,9 +68,8 @@ func run100(cities []City, client *redis.Client, c chan []redis.GeoLocation) {
 		defer timeTrack(time.Now(), "100 queries")
 	}
 	for i := 0; i < 100; i++ {
-
+		// Waitgroup ensures that all routines have completed be
 		wg.Add(1)
-
 		go doGeoSearch(cities[rand.Intn(len(cities))], client, c)
 		go doPipeHM(client, c, &wg)
 	}
@@ -121,11 +120,6 @@ func doGeoSearch(loc City, client *redis.Client, c chan<- []redis.GeoLocation) {
 
 func doPipeHM(client *redis.Client, c <-chan []redis.GeoLocation, wg *sync.WaitGroup) {
 	defer wg.Done()
-	// if v {
-	// 	defer timeTrack(time.Now(), "HM Pipe Query")
-	// }
-
-	// fmt.Println("DoPipe Started")
 	list := <-c
 	var res []*redis.StringStringMapCmd
 	client.Pipelined(func(pipe redis.Pipeliner) error {
@@ -137,29 +131,9 @@ func doPipeHM(client *redis.Client, c <-chan []redis.GeoLocation, wg *sync.WaitG
 
 }
 
-// if v {
-// 	for i := range res {
-// 		fmt.Println(res[i].Val())
-// 	}
-// }
-// fmt.Println("external", err)
-
-// pipe.Exec()
-// fmt.Println(pipe.Exec())
-// }
-
 func init() {
+	// Cobra Flags
 	rootCmd.AddCommand(queryCmd)
 	queryCmd.Flags().IntVarP(&iterations, "num", "n", 100, "number of random queries to execute")
 	queryCmd.Flags().BoolVarP(&v, "verbose", "v", false, "verbose")
-
-	// Here you will define your flags and configuration settings.
-
-	// Cobra supports Persistent Flags which will work for this command
-	// and all subcommands, e.g.:
-	// queryCmd.PersistentFlags().String("foo", "", "A help for foo")
-
-	// Cobra supports local flags which will only run when this command
-	// is called directly, e.g.:
-	// queryCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
