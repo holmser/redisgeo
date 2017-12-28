@@ -1,0 +1,1155 @@
+{
+  "success": true,
+  "errorMessage": null,
+  "result": {
+    "searchTerm": "miami",
+    "total": 130,
+    "events": [
+      {
+        "masterEventId": 17139,
+        "masterEventTitle": "Mercedes-Benz Corporate Run",
+        "city": "Miami",
+        "stateProv": "FL",
+        "elevation": 0,
+        "courseVariants": [
+          {
+            "name": "5K",
+            "raceCatId": 2
+          },
+          {
+            "name": "5K Obstacle",
+            "raceCatId": 32
+          }
+        ],
+        "races": [
+          {
+            "raceId": 31340,
+            "finishers": 379,
+            "eventDate": "2005-05-05T00:00:00"
+          },
+          {
+            "raceId": 31339,
+            "finishers": 328,
+            "eventDate": "2006-05-11T00:00:00"
+          },
+          {
+            "raceId": 52513,
+            "finishers": 0,
+            "eventDate": "2008-01-01T00:00:00"
+          },
+          {
+            "raceId": 89370,
+            "finishers": 297,
+            "eventDate": "2009-04-30T00:00:00"
+          },
+          {
+            "raceId": 120382,
+            "finishers": 28,
+            "eventDate": "2010-04-29T00:00:00"
+          },
+          {
+            "raceId": 156165,
+            "finishers": 13311,
+            "eventDate": "2011-04-28T00:00:00"
+          },
+          {
+            "raceId": 205523,
+            "finishers": 15889,
+            "eventDate": "2012-04-26T00:00:00"
+          },
+          {
+            "raceId": 279017,
+            "finishers": 17305,
+            "eventDate": "2013-04-25T00:00:00"
+          },
+          {
+            "raceId": 376684,
+            "finishers": 18382,
+            "eventDate": "2014-04-24T00:00:00"
+          },
+          {
+            "raceId": 442111,
+            "finishers": 3165,
+            "eventDate": "2015-04-23T00:00:00"
+          },
+          {
+            "raceId": 521971,
+            "finishers": 18579,
+            "eventDate": "2016-04-28T00:00:00"
+          },
+          {
+            "raceId": 635886,
+            "finishers": 18518,
+            "eventDate": "2017-04-27T00:00:00"
+          }
+        ]
+      },
+      {
+        "masterEventId": 31028,
+        "masterEventTitle": "Mack Cycle and Fitness Key Biscayne Triathlon",
+        "city": "Key Biscayne",
+        "stateProv": "FL",
+        "elevation": 0,
+        "courseVariants": [
+          {
+            "name": "1Mi Run, 10Mi Bike, 5K Run",
+            "raceCatId": 8
+          }
+        ],
+        "races": [
+          {
+            "raceId": 55291,
+            "finishers": 500,
+            "eventDate": "2002-06-22T00:00:00"
+          },
+          {
+            "raceId": 24294,
+            "finishers": 571,
+            "eventDate": "2004-08-22T00:00:00"
+          },
+          {
+            "raceId": 5655,
+            "finishers": 457,
+            "eventDate": "2005-06-26T00:00:00"
+          },
+          {
+            "raceId": 6569,
+            "finishers": 349,
+            "eventDate": "2005-07-24T00:00:00"
+          },
+          {
+            "raceId": 43116,
+            "finishers": 400,
+            "eventDate": "2005-08-26T00:00:00"
+          },
+          {
+            "raceId": 284054,
+            "finishers": 0,
+            "eventDate": "2006-06-25T00:00:00"
+          },
+          {
+            "raceId": 12572,
+            "finishers": 649,
+            "eventDate": "2006-08-27T00:00:00"
+          },
+          {
+            "raceId": 9411,
+            "finishers": 450,
+            "eventDate": "2006-07-23T00:00:00"
+          },
+          {
+            "raceId": 37636,
+            "finishers": 96,
+            "eventDate": "2007-08-26T00:00:00"
+          },
+          {
+            "raceId": 37635,
+            "finishers": 78,
+            "eventDate": "2007-07-22T00:00:00"
+          },
+          {
+            "raceId": 28821,
+            "finishers": 613,
+            "eventDate": "2007-06-24T00:00:00"
+          },
+          {
+            "raceId": 32587,
+            "finishers": 776,
+            "eventDate": "2007-08-26T00:00:00"
+          },
+          {
+            "raceId": 31614,
+            "finishers": 560,
+            "eventDate": "2007-07-22T00:00:00"
+          },
+          {
+            "raceId": 65864,
+            "finishers": 546,
+            "eventDate": "2008-09-21T00:00:00"
+          },
+          {
+            "raceId": 62013,
+            "finishers": 774,
+            "eventDate": "2008-07-20T00:00:00"
+          },
+          {
+            "raceId": 58979,
+            "finishers": 820,
+            "eventDate": "2008-06-22T00:00:00"
+          },
+          {
+            "raceId": 65609,
+            "finishers": 0,
+            "eventDate": "2008-08-28T00:00:00"
+          },
+          {
+            "raceId": 65326,
+            "finishers": 826,
+            "eventDate": "2008-08-24T00:00:00"
+          },
+          {
+            "raceId": 101836,
+            "finishers": 720,
+            "eventDate": "2009-08-16T00:00:00"
+          },
+          {
+            "raceId": 109233,
+            "finishers": 610,
+            "eventDate": "2009-09-20T00:00:00"
+          },
+          {
+            "raceId": 97523,
+            "finishers": 829,
+            "eventDate": "2009-07-19T00:00:00"
+          },
+          {
+            "raceId": 95997,
+            "finishers": 863,
+            "eventDate": "2009-06-21T00:00:00"
+          },
+          {
+            "raceId": 128983,
+            "finishers": 714,
+            "eventDate": "2010-06-20T00:00:00"
+          },
+          {
+            "raceId": 128662,
+            "finishers": 752,
+            "eventDate": "2010-07-18T00:00:00"
+          },
+          {
+            "raceId": 137379,
+            "finishers": 701,
+            "eventDate": "2010-08-15T00:00:00"
+          },
+          {
+            "raceId": 136612,
+            "finishers": 638,
+            "eventDate": "2010-09-19T00:00:00"
+          },
+          {
+            "raceId": 171690,
+            "finishers": 686,
+            "eventDate": "2011-08-14T00:00:00"
+          },
+          {
+            "raceId": 168209,
+            "finishers": 781,
+            "eventDate": "2011-07-17T00:00:00"
+          },
+          {
+            "raceId": 179154,
+            "finishers": 492,
+            "eventDate": "2011-09-18T00:00:00"
+          },
+          {
+            "raceId": 166463,
+            "finishers": 900,
+            "eventDate": "2011-06-19T00:00:00"
+          },
+          {
+            "raceId": 215760,
+            "finishers": 1729,
+            "eventDate": "2012-06-17T00:00:00"
+          },
+          {
+            "raceId": 607997,
+            "finishers": 0,
+            "eventDate": "2012-09-09T00:00:00"
+          },
+          {
+            "raceId": 219498,
+            "finishers": 616,
+            "eventDate": "2012-07-22T00:00:00"
+          },
+          {
+            "raceId": 607996,
+            "finishers": 0,
+            "eventDate": "2012-08-19T00:00:00"
+          },
+          {
+            "raceId": 270121,
+            "finishers": 446,
+            "eventDate": "2013-07-21T00:00:00"
+          },
+          {
+            "raceId": 300461,
+            "finishers": 294,
+            "eventDate": "2013-09-15T00:00:00"
+          },
+          {
+            "raceId": 279803,
+            "finishers": 466,
+            "eventDate": "2013-06-09T00:00:00"
+          },
+          {
+            "raceId": 270118,
+            "finishers": 372,
+            "eventDate": "2013-08-18T00:00:00"
+          },
+          {
+            "raceId": 435721,
+            "finishers": 0,
+            "eventDate": "2014-08-31T00:00:00"
+          },
+          {
+            "raceId": 389161,
+            "finishers": 0,
+            "eventDate": "2014-06-08T00:00:00"
+          },
+          {
+            "raceId": 397159,
+            "finishers": 0,
+            "eventDate": "2014-09-14T00:00:00"
+          },
+          {
+            "raceId": 352205,
+            "finishers": 357,
+            "eventDate": "2014-07-20T00:00:00"
+          },
+          {
+            "raceId": 391459,
+            "finishers": 0,
+            "eventDate": "2014-06-08T00:00:00"
+          },
+          {
+            "raceId": 386160,
+            "finishers": 0,
+            "eventDate": "2014-07-04T00:00:00"
+          },
+          {
+            "raceId": 396902,
+            "finishers": 438,
+            "eventDate": "2014-08-17T00:00:00"
+          },
+          {
+            "raceId": 454344,
+            "finishers": 450,
+            "eventDate": "2015-07-19T00:00:00"
+          },
+          {
+            "raceId": 470516,
+            "finishers": 439,
+            "eventDate": "2015-08-16T00:00:00"
+          },
+          {
+            "raceId": 657310,
+            "finishers": 0,
+            "eventDate": "2015-08-16T00:00:00"
+          },
+          {
+            "raceId": 657302,
+            "finishers": 0,
+            "eventDate": "2015-07-19T00:00:00"
+          },
+          {
+            "raceId": 465425,
+            "finishers": 337,
+            "eventDate": "2015-09-13T00:00:00"
+          },
+          {
+            "raceId": 657306,
+            "finishers": 0,
+            "eventDate": "2015-06-21T00:00:00"
+          },
+          {
+            "raceId": 432135,
+            "finishers": 532,
+            "eventDate": "2015-06-21T00:00:00"
+          },
+          {
+            "raceId": 657303,
+            "finishers": 0,
+            "eventDate": "2015-06-21T00:00:00"
+          },
+          {
+            "raceId": 552948,
+            "finishers": 592,
+            "eventDate": "2016-06-19T00:00:00"
+          },
+          {
+            "raceId": 561968,
+            "finishers": 550,
+            "eventDate": "2016-07-17T00:00:00"
+          },
+          {
+            "raceId": 584974,
+            "finishers": 464,
+            "eventDate": "2016-09-11T00:00:00"
+          },
+          {
+            "raceId": 583812,
+            "finishers": 515,
+            "eventDate": "2016-08-14T00:00:00"
+          },
+          {
+            "raceId": 657311,
+            "finishers": 578,
+            "eventDate": "2017-07-16T00:00:00"
+          },
+          {
+            "raceId": 657931,
+            "finishers": 687,
+            "eventDate": "2017-06-18T00:00:00"
+          }
+        ]
+      },
+      {
+        "masterEventId": 3294,
+        "masterEventTitle": "Miami Marathon & Half Marathon",
+        "city": "Miami",
+        "stateProv": "FL",
+        "elevation": 0,
+        "courseVariants": [
+          {
+            "name": "5K",
+            "raceCatId": 2
+          },
+          {
+            "name": "1/2 Mara",
+            "raceCatId": 2
+          },
+          {
+            "name": "Marathon",
+            "raceCatId": 2
+          },
+          {
+            "name": "26.2Mi Bike",
+            "raceCatId": 6
+          },
+          {
+            "name": "13.1Mi Bike",
+            "raceCatId": 6
+          },
+          {
+            "name": "Untimed",
+            "raceCatId": 34
+          },
+          {
+            "name": "3.1Mi Run",
+            "raceCatId": 2
+          },
+          {
+            "name": "13.1Mi Run",
+            "raceCatId": 2
+          },
+          {
+            "name": "42.2K Run",
+            "raceCatId": 2
+          },
+          {
+            "name": "Marathon",
+            "raceCatId": 6
+          },
+          {
+            "name": "1/2 Mara",
+            "raceCatId": 6
+          },
+          {
+            "name": "13.1Mi Run",
+            "raceCatId": 2
+          },
+          {
+            "name": "1Mi Run",
+            "raceCatId": 2
+          }
+        ],
+        "races": [
+          {
+            "raceId": 15163,
+            "finishers": 3880,
+            "eventDate": "2003-02-01T00:00:00"
+          },
+          {
+            "raceId": 8639,
+            "finishers": 5608,
+            "eventDate": "2004-02-01T00:00:00"
+          },
+          {
+            "raceId": 117672,
+            "finishers": 7035,
+            "eventDate": "2005-01-30T00:00:00"
+          },
+          {
+            "raceId": 7890,
+            "finishers": 9142,
+            "eventDate": "2006-01-29T00:00:00"
+          },
+          {
+            "raceId": 9218,
+            "finishers": 10315,
+            "eventDate": "2007-01-28T00:00:00"
+          },
+          {
+            "raceId": 19623,
+            "finishers": 11785,
+            "eventDate": "2008-01-27T00:00:00"
+          },
+          {
+            "raceId": 60672,
+            "finishers": 13776,
+            "eventDate": "2009-01-25T00:00:00"
+          },
+          {
+            "raceId": 111884,
+            "finishers": 15364,
+            "eventDate": "2010-01-31T00:00:00"
+          },
+          {
+            "raceId": 153385,
+            "finishers": 18902,
+            "eventDate": "2011-01-30T00:00:00"
+          },
+          {
+            "raceId": 153461,
+            "finishers": 22057,
+            "eventDate": "2012-01-29T00:00:00"
+          },
+          {
+            "raceId": 209194,
+            "finishers": 20373,
+            "eventDate": "2013-01-27T00:00:00"
+          },
+          {
+            "raceId": 247742,
+            "finishers": 20693,
+            "eventDate": "2014-02-02T00:00:00"
+          },
+          {
+            "raceId": 411078,
+            "finishers": 17529,
+            "eventDate": "2015-01-24T00:00:00"
+          },
+          {
+            "raceId": 383053,
+            "finishers": 19068,
+            "eventDate": "2016-01-23T00:00:00"
+          },
+          {
+            "raceId": 604129,
+            "finishers": 17190,
+            "eventDate": "2017-01-29T00:00:00"
+          },
+          {
+            "raceId": 615881,
+            "finishers": 0,
+            "eventDate": "2018-01-28T00:00:00"
+          },
+          {
+            "raceId": 699091,
+            "finishers": 0,
+            "eventDate": "2018-01-29T00:00:00"
+          },
+          {
+            "raceId": 649987,
+            "finishers": 0,
+            "eventDate": "2019-01-28T00:00:00"
+          }
+        ]
+      },
+      {
+        "masterEventId": 179579,
+        "masterEventTitle": "Ironman 70.3 Miami",
+        "city": "Miami",
+        "stateProv": "FL",
+        "elevation": 2,
+        "courseVariants": [
+          {
+            "name": "Half Iron",
+            "raceCatId": 7
+          },
+          {
+            "name": "1.2Mi Swim, 56Mi Bike/Cycle, 13.1Mi Run",
+            "raceCatId": 7
+          }
+        ],
+        "races": [
+          {
+            "raceId": 146226,
+            "finishers": 1837,
+            "eventDate": "2010-10-30T00:00:00"
+          },
+          {
+            "raceId": 174254,
+            "finishers": 2026,
+            "eventDate": "2011-10-30T00:00:00"
+          },
+          {
+            "raceId": 192426,
+            "finishers": 2066,
+            "eventDate": "2012-10-28T00:00:00"
+          },
+          {
+            "raceId": 249486,
+            "finishers": 2266,
+            "eventDate": "2013-10-27T00:00:00"
+          },
+          {
+            "raceId": 348296,
+            "finishers": 2166,
+            "eventDate": "2014-10-26T00:00:00"
+          },
+          {
+            "raceId": 426440,
+            "finishers": 2349,
+            "eventDate": "2015-10-25T00:00:00"
+          },
+          {
+            "raceId": 584638,
+            "finishers": 2050,
+            "eventDate": "2016-10-23T00:00:00"
+          },
+          {
+            "raceId": 603750,
+            "finishers": 1581,
+            "eventDate": "2017-10-22T00:00:00"
+          }
+        ]
+      },
+      {
+        "masterEventId": 38133,
+        "masterEventTitle": "Morgans Little Miami Triathlon",
+        "city": "Cincinnati",
+        "stateProv": "OH",
+        "elevation": 203,
+        "courseVariants": [
+          {
+            "name": "6Mi Canoe, 5.5Mi Run, 18Mi Bike",
+            "raceCatId": 26
+          },
+          {
+            "name": "6Mi Canoe, 18Mi Bike, 5.5Mi Trail Run",
+            "raceCatId": 7
+          },
+          {
+            "name": "6Mi Canoe, 5.5Mi Run, 18Mi Bike/Cycle",
+            "raceCatId": 7
+          },
+          {
+            "name": "6Mi Canoe, 6Mi Run, 18Mi Bike",
+            "raceCatId": 26
+          },
+          {
+            "name": "6Mi Canoe, 5.5Mi Run, 18Mi Bike",
+            "raceCatId": 7
+          }
+        ],
+        "races": [
+          {
+            "raceId": 93079,
+            "finishers": 841,
+            "eventDate": "2001-06-03T00:00:00"
+          },
+          {
+            "raceId": 93077,
+            "finishers": 784,
+            "eventDate": "2002-06-16T00:00:00"
+          },
+          {
+            "raceId": 77599,
+            "finishers": 982,
+            "eventDate": "2003-06-01T00:00:00"
+          },
+          {
+            "raceId": 77602,
+            "finishers": 775,
+            "eventDate": "2004-06-06T00:00:00"
+          },
+          {
+            "raceId": 77600,
+            "finishers": 885,
+            "eventDate": "2005-06-05T00:00:00"
+          },
+          {
+            "raceId": 12535,
+            "finishers": 780,
+            "eventDate": "2006-06-04T00:00:00"
+          },
+          {
+            "raceId": 76040,
+            "finishers": 905,
+            "eventDate": "2007-06-03T00:00:00"
+          },
+          {
+            "raceId": 53692,
+            "finishers": 1054,
+            "eventDate": "2008-06-01T00:00:00"
+          },
+          {
+            "raceId": 85391,
+            "finishers": 1112,
+            "eventDate": "2009-06-07T00:00:00"
+          },
+          {
+            "raceId": 127366,
+            "finishers": 1143,
+            "eventDate": "2010-06-06T00:00:00"
+          },
+          {
+            "raceId": 168200,
+            "finishers": 2196,
+            "eventDate": "2011-06-05T00:00:00"
+          },
+          {
+            "raceId": 263901,
+            "finishers": 852,
+            "eventDate": "2013-06-02T00:00:00"
+          },
+          {
+            "raceId": 386810,
+            "finishers": 759,
+            "eventDate": "2014-06-01T00:00:00"
+          },
+          {
+            "raceId": 597855,
+            "finishers": 0,
+            "eventDate": "2015-06-07T00:00:00"
+          },
+          {
+            "raceId": 551105,
+            "finishers": 0,
+            "eventDate": "2016-06-05T00:00:00"
+          },
+          {
+            "raceId": 605148,
+            "finishers": 0,
+            "eventDate": "2017-06-04T00:00:00"
+          }
+        ]
+      },
+      {
+        "masterEventId": 108288,
+        "masterEventTitle": "Miami Super Spartan",
+        "city": "Miami",
+        "stateProv": "FL",
+        "elevation": 0,
+        "courseVariants": [
+          {
+            "name": "Spartan Super",
+            "raceCatId": 32
+          },
+          {
+            "name": "5K",
+            "raceCatId": 2
+          },
+          {
+            "name": "50Mi Trail Run",
+            "raceCatId": 15
+          },
+          {
+            "name": "1Mi Run",
+            "raceCatId": 2
+          },
+          {
+            "name": "5K Trail Run",
+            "raceCatId": 15
+          }
+        ],
+        "races": [
+          {
+            "raceId": 177865,
+            "finishers": 0,
+            "eventDate": "2012-09-25T00:00:00"
+          },
+          {
+            "raceId": 272149,
+            "finishers": 0,
+            "eventDate": "2013-09-24T00:00:00"
+          },
+          {
+            "raceId": 357276,
+            "finishers": 8951,
+            "eventDate": "2014-04-12T00:00:00"
+          },
+          {
+            "raceId": 472635,
+            "finishers": 0,
+            "eventDate": "2015-08-26T00:00:00"
+          },
+          {
+            "raceId": 571616,
+            "finishers": 0,
+            "eventDate": "2016-08-17T00:00:00"
+          }
+        ]
+      },
+      {
+        "masterEventId": 6951,
+        "masterEventTitle": "Celebrity 5k",
+        "city": "Miami",
+        "stateProv": "FL",
+        "elevation": 0,
+        "courseVariants": [
+          {
+            "name": "5K",
+            "raceCatId": 2
+          }
+        ],
+        "races": [
+          {
+            "raceId": 9219,
+            "finishers": 1773,
+            "eventDate": "2007-03-25T00:00:00"
+          },
+          {
+            "raceId": 28578,
+            "finishers": 2098,
+            "eventDate": "2008-03-30T00:00:00"
+          },
+          {
+            "raceId": 84821,
+            "finishers": 1703,
+            "eventDate": "2009-03-22T00:00:00"
+          },
+          {
+            "raceId": 117643,
+            "finishers": 1937,
+            "eventDate": "2010-03-21T00:00:00"
+          }
+        ]
+      },
+      {
+        "masterEventId": 24158,
+        "masterEventTitle": "ORRRC Turkey Trot 5 mile",
+        "city": "Miamisburg",
+        "stateProv": "OH",
+        "elevation": 225,
+        "courseVariants": [
+          {
+            "name": "8K Run",
+            "raceCatId": 2
+          },
+          {
+            "name": "5Mi Walk",
+            "raceCatId": 17
+          },
+          {
+            "name": "5Mi Run",
+            "raceCatId": 2
+          },
+          {
+            "name": "1Mi Run",
+            "raceCatId": 2
+          }
+        ],
+        "races": [
+          {
+            "raceId": 199105,
+            "finishers": 2521,
+            "eventDate": "1996-11-28T00:00:00"
+          },
+          {
+            "raceId": 199103,
+            "finishers": 3274,
+            "eventDate": "1999-11-25T00:00:00"
+          },
+          {
+            "raceId": 141793,
+            "finishers": 4433,
+            "eventDate": "2001-11-22T00:00:00"
+          },
+          {
+            "raceId": 189129,
+            "finishers": 4191,
+            "eventDate": "2003-11-27T00:00:00"
+          },
+          {
+            "raceId": 1268,
+            "finishers": 4236,
+            "eventDate": "2004-11-25T00:00:00"
+          },
+          {
+            "raceId": 10612,
+            "finishers": 3980,
+            "eventDate": "2005-11-24T00:00:00"
+          },
+          {
+            "raceId": 15677,
+            "finishers": 4669,
+            "eventDate": "2006-11-23T00:00:00"
+          },
+          {
+            "raceId": 41681,
+            "finishers": 4790,
+            "eventDate": "2007-11-22T00:00:00"
+          },
+          {
+            "raceId": 75057,
+            "finishers": 5520,
+            "eventDate": "2008-11-27T00:00:00"
+          },
+          {
+            "raceId": 110100,
+            "finishers": 5987,
+            "eventDate": "2009-11-26T00:00:00"
+          },
+          {
+            "raceId": 139645,
+            "finishers": 4656,
+            "eventDate": "2010-11-25T00:00:00"
+          },
+          {
+            "raceId": 176234,
+            "finishers": 6453,
+            "eventDate": "2011-11-24T00:00:00"
+          },
+          {
+            "raceId": 215513,
+            "finishers": 7279,
+            "eventDate": "2012-11-22T00:00:00"
+          },
+          {
+            "raceId": 249667,
+            "finishers": 7659,
+            "eventDate": "2013-11-28T00:00:00"
+          },
+          {
+            "raceId": 362959,
+            "finishers": 6957,
+            "eventDate": "2014-11-27T00:00:00"
+          },
+          {
+            "raceId": 475164,
+            "finishers": 7852,
+            "eventDate": "2015-11-26T00:00:00"
+          },
+          {
+            "raceId": 596830,
+            "finishers": 7319,
+            "eventDate": "2016-11-24T00:00:00"
+          },
+          {
+            "raceId": 692245,
+            "finishers": 6433,
+            "eventDate": "2017-11-23T00:00:00"
+          }
+        ]
+      },
+      {
+        "masterEventId": 35982,
+        "masterEventTitle": "Superhero Scramble Charger Miami ",
+        "city": "Miami",
+        "stateProv": "FL",
+        "elevation": 0,
+        "courseVariants": [
+          {
+            "name": "Spartan Sprint",
+            "raceCatId": 32
+          },
+          {
+            "name": "6Mi Obstacle",
+            "raceCatId": 32
+          },
+          {
+            "name": "6Mi Obstacle",
+            "raceCatId": 32
+          }
+        ],
+        "races": [
+          {
+            "raceId": 194667,
+            "finishers": 2613,
+            "eventDate": "2012-03-24T00:00:00"
+          },
+          {
+            "raceId": 228516,
+            "finishers": 2397,
+            "eventDate": "2013-01-12T00:00:00"
+          },
+          {
+            "raceId": 302585,
+            "finishers": 2258,
+            "eventDate": "2014-01-11T00:00:00"
+          }
+        ]
+      },
+      {
+        "masterEventId": 12953,
+        "masterEventTitle": "Latin Music Miami Beach Half Marathon",
+        "city": "Miami Beach",
+        "stateProv": "FL",
+        "elevation": 0,
+        "courseVariants": [
+          {
+            "name": "1/2 Mara",
+            "raceCatId": 2
+          }
+        ],
+        "races": [
+          {
+            "raceId": 153566,
+            "finishers": 3681,
+            "eventDate": "2011-12-11T00:00:00"
+          },
+          {
+            "raceId": 216968,
+            "finishers": 2425,
+            "eventDate": "2012-11-18T00:00:00"
+          },
+          {
+            "raceId": 255431,
+            "finishers": 0,
+            "eventDate": "2013-11-17T00:00:00"
+          }
+        ]
+      },
+      {
+        "masterEventId": 190527,
+        "masterEventTitle": "Miami Spartan Sprint",
+        "city": "Miami",
+        "stateProv": "FL",
+        "elevation": 2,
+        "courseVariants": [
+          {
+            "name": "Spartan Sprint",
+            "raceCatId": 32
+          }
+        ],
+        "races": [
+          {
+            "raceId": 488686,
+            "finishers": 7846,
+            "eventDate": "2015-12-05T00:00:00"
+          }
+        ]
+      },
+      {
+        "masterEventId": 34888,
+        "masterEventTitle": "Florida Super Spartan Race ",
+        "city": "Miami",
+        "stateProv": "FL",
+        "elevation": 0,
+        "courseVariants": [
+          {
+            "name": "5K Obstacle",
+            "raceCatId": 32
+          }
+        ],
+        "races": [
+          {
+            "raceId": 161721,
+            "finishers": 3147,
+            "eventDate": "2011-04-23T00:00:00"
+          },
+          {
+            "raceId": 177866,
+            "finishers": 4481,
+            "eventDate": "2012-02-25T00:00:00"
+          },
+          {
+            "raceId": 207179,
+            "finishers": 6257,
+            "eventDate": "2013-02-23T00:00:00"
+          },
+          {
+            "raceId": 599659,
+            "finishers": 0,
+            "eventDate": "2017-02-10T00:00:00"
+          },
+          {
+            "raceId": 694852,
+            "finishers": 0,
+            "eventDate": "2018-02-24T00:00:00"
+          }
+        ]
+      },
+      {
+        "masterEventId": 1818,
+        "masterEventTitle": "Miami Turkey Trot 5k/10k",
+        "city": "Miami",
+        "stateProv": "FL",
+        "elevation": 0,
+        "courseVariants": [
+          {
+            "name": "5K",
+            "raceCatId": 2
+          },
+          {
+            "name": "10K",
+            "raceCatId": 2
+          },
+          {
+            "name": "0.1Mi Run, 0.1Mi Run, 0.2Mi Run, 0.4Mi Run",
+            "raceCatId": 7
+          },
+          {
+            "name": "Untimed",
+            "raceCatId": 34
+          }
+        ],
+        "races": [
+          {
+            "raceId": 9215,
+            "finishers": 1350,
+            "eventDate": "2006-11-23T00:00:00"
+          },
+          {
+            "raceId": 39598,
+            "finishers": 2082,
+            "eventDate": "2007-11-22T00:00:00"
+          },
+          {
+            "raceId": 71493,
+            "finishers": 2745,
+            "eventDate": "2008-11-27T00:00:00"
+          },
+          {
+            "raceId": 109117,
+            "finishers": 2807,
+            "eventDate": "2009-11-26T00:00:00"
+          },
+          {
+            "raceId": 144794,
+            "finishers": 3300,
+            "eventDate": "2010-11-25T00:00:00"
+          },
+          {
+            "raceId": 185050,
+            "finishers": 3935,
+            "eventDate": "2011-11-24T00:00:00"
+          },
+          {
+            "raceId": 225177,
+            "finishers": 4297,
+            "eventDate": "2012-11-22T00:00:00"
+          },
+          {
+            "raceId": 249991,
+            "finishers": 4968,
+            "eventDate": "2013-11-28T00:00:00"
+          },
+          {
+            "raceId": 406594,
+            "finishers": 4537,
+            "eventDate": "2014-11-27T00:00:00"
+          },
+          {
+            "raceId": 496068,
+            "finishers": 3546,
+            "eventDate": "2015-11-26T00:00:00"
+          },
+          {
+            "raceId": 585496,
+            "finishers": 4416,
+            "eventDate": "2016-11-24T00:00:00"
+          },
+          {
+            "raceId": 699093,
+            "finishers": 0,
+            "eventDate": "2017-12-20T00:00:00"
+          },
+          {
+            "raceId": 601777,
+            "finishers": 4772,
+            "eventDate": "2017-11-23T00:00:00"
+          },
+          {
+            "raceId": 669437,
+            "finishers": 0,
+            "eventDate": "2018-11-23T00:00:00"
+          }
+        ]
+      }
+    ]
+  }
+}
