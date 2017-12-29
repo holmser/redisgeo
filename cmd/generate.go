@@ -30,7 +30,8 @@ import (
 )
 
 var (
-	left = [...]string{
+	cityCount int
+	left      = [...]string{
 		"Prancing",
 		"Dancing",
 		"Filthy",
@@ -265,7 +266,7 @@ var generateCmd = &cobra.Command{
 			for j := 0; j < races[i].Count*5; j++ {
 				raceId++
 				// name := getRandName(names)
-				city := cities[rand.Intn(len(cities))]
+				city := cities[rand.Intn(cityCount)]
 				// location := Location{
 				// 	Country: "US",
 				// 	City:    city,
@@ -315,7 +316,7 @@ func init() {
 	rootCmd.AddCommand(generateCmd)
 	generateCmd.Flags().StringVarP(&host, "host", "r", "localhost", "Redis hostname")
 	generateCmd.Flags().StringVarP(&port, "port", "p", "6379", "Redis port")
-	loadCmd.Flags().IntVarP(&cityCount, "city-count", "c", 1000, "Number of cities to use")
+	generateCmd.Flags().IntVarP(&cityCount, "city-count", "c", 1000, "Number of cities to use")
 	// Here you will define your flags and configuration settings.
 
 	// Cobra supports Persistent Flags which will work for this command
