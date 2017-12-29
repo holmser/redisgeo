@@ -2,26 +2,26 @@
   {
     "category": "5k",
     "distance": 5000,
-    "count": 170000
+    "count": 17000
   },
   {
     "category": "10k",
     "distance": 10000,
-    "count": 42000
+    "count": 4200
   },
   {
     "category": "Half Marathon",
     "distance": 21097.5,
-    "count": 28000
+    "count": 2800
   },
   {
     "category": "8k/5M",
     "count": 12000,
-    "distance": 8000
+    "distance": 800
   },
   {
     "category": "Marathon",
-    "count": 11000,
+    "count": 1100,
     "distance": 42195
   }
 ]

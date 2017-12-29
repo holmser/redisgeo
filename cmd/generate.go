@@ -177,14 +177,6 @@ type Race struct {
 	Country  string
 }
 
-/*
-	Event Name
-	Event Date
-	City
-	State
-	Finishers
-
-*/
 // generateCmd represents the generate command
 func check(e error) {
 	if e != nil {
@@ -215,12 +207,12 @@ func getNames() []string {
 }
 
 func getCities() []City {
-	jsonFile, err := os.Open("data/cities_short.json")
+	jsonFile, err := os.Open("data/cities.json")
 	// if we os.Open returns an error then handle it
 	if err != nil {
 		fmt.Println(err)
 	} else {
-		fmt.Println("Successfully Opened users.json")
+		fmt.Println("Successfully Opened cities.json")
 	}
 	defer jsonFile.Close()
 
@@ -270,7 +262,7 @@ var generateCmd = &cobra.Command{
 		json.Unmarshal(byteValue, &races)
 		raceId := 0
 		for i := 0; i < len(races); i++ {
-			for j := 0; j < races[i].Count; j++ {
+			for j := 0; j < races[i].Count*5; j++ {
 				raceId++
 				// name := getRandName(names)
 				city := cities[rand.Intn(len(cities))]
@@ -287,12 +279,6 @@ var generateCmd = &cobra.Command{
 					"latitude":  city.Latitude,
 					"longitude": city.Longitude}
 
-				// fmt.Println(raceMeta)
-				// fmt.Printf("HMSET %v name \"%v\" dist \"%v\" city \"%v\" state \"%v\"\n",
-				// 	raceMeta.Uuid, raceMeta.Name, raceMeta.Distance, raceMeta.Location.City, raceMeta.Location.State)
-
-				// fmt.Println(raceMeta)
-				// fmt.Println(raceMeta["name"])
 				uuid := strconv.Itoa(raceId)
 				// fmt.Println(city)
 				loc := &redis.GeoLocation{
@@ -329,6 +315,7 @@ func init() {
 	rootCmd.AddCommand(generateCmd)
 	generateCmd.Flags().StringVarP(&host, "host", "r", "localhost", "Redis hostname")
 	generateCmd.Flags().StringVarP(&port, "port", "p", "6379", "Redis port")
+	loadCmd.Flags().IntVarP(&cityCount, "city-count", "c", 1000, "Number of cities to use")
 	// Here you will define your flags and configuration settings.
 
 	// Cobra supports Persistent Flags which will work for this command
