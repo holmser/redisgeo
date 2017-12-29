@@ -50,7 +50,7 @@ geoadd places lon lat name
 
 - Loading data:
   - 1 record at a time:  15+ minutes for a 2.3 million records
-  - pipelined:  32 seconds.  Wow.
+  - pipelined:  32 seconds
 
 
 ### Failure Recovery
