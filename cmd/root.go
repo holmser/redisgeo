@@ -48,7 +48,7 @@ func Execute() {
 
 func init() {
 	cobra.OnInitialize(initConfig)
-	rootCmd.PersistentFlags().StringVarP(&host, "host", "r", "localhost", "Redis hostname")
+	rootCmd.PersistentFlags().StringVarP(&host, "host", "", "localhost", "Redis hostname")
 	rootCmd.PersistentFlags().StringVarP(&port, "port", "p", "6379", "Redis port")
 
 	// Here you will define your flags and configuration settings.

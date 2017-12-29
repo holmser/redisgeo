@@ -314,7 +314,7 @@ var generateCmd = &cobra.Command{
 
 func init() {
 	rootCmd.AddCommand(generateCmd)
-	generateCmd.Flags().StringVarP(&host, "host", "r", "localhost", "Redis hostname")
+	generateCmd.Flags().StringVarP(&host, "host", "d", "localhost", "Redis hostname")
 	generateCmd.Flags().StringVarP(&port, "port", "p", "6379", "Redis port")
 	generateCmd.Flags().IntVarP(&cityCount, "city-count", "c", 1000, "Number of cities to use")
 	// Here you will define your flags and configuration settings.

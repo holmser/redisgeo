@@ -1,8 +1,12 @@
-# Location Search
+# Redis Geo
 
-Simple script to learn location based queries with redis.
+Tools for putting Redis Geo search through it's paces, written in Go. I've been benchmarking and evaluating Redis performance for location based searches.  Most of the script centers around the [GEORADIUS](https://redis.io/commands/georadius) command.
 
-- Insert location database into redis
+## Building and Running
+```go get github.com/holmser/redisgeo```
+
+
+Database of Places for testing:
   - http://download.geonames.org/export/dump/
   ```sh
   wget http://download.geonames.org/export/dump/US.zip
@@ -12,7 +16,7 @@ Simple script to learn location based queries with redis.
 
 # How Geohashing works
 
-Get geohash in resolution you need
+TODO
 
 > **Haversine** formula is a standard way to calculate distance between 2 points on the surface of a sphere.  Earth is not a perfect sphere, so this method may introduce errors of up to .5%.  This is usually an acceptable error rate for social proximity searches.
 

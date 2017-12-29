@@ -28,6 +28,12 @@ import (
 	"github.com/spf13/cobra"
 )
 
+var (
+	v           bool
+	radius      float64
+	resultCount int
+)
+
 // City only takes the fields we need to make our query
 type City struct {
 	City      string  `json:"city"`
@@ -35,8 +41,6 @@ type City struct {
 	Longitude float64 `json:"longitude"`
 	State     string  `json:"state"`
 }
-
-var v bool
 
 func timeTrack(start time.Time, name string) {
 	elapsed := time.Since(start)
@@ -96,7 +100,6 @@ func initRedis() (*redis.Client, chan []redis.GeoLocation) {
 		Addr:     "localhost:6379",
 		Password: "",
 		DB:       0,
-		PoolSize: 15,
 	})
 
 	c := make(chan []redis.GeoLocation)
@@ -109,7 +112,7 @@ func doGeoSearch(loc City, client *redis.Client, c chan<- []redis.GeoLocation) {
 	// TODO:  fix hardcoded query
 	// fmt.Println("doGeoSearch(loc, client, c)")
 
-	q := redis.GeoRadiusQuery{Unit: "mi", Radius: 50, Count: 50}
+	q := redis.GeoRadiusQuery{Unit: "mi", Radius: radius, Count: resultCount}
 	res, err := client.GeoRadiusRO("places", loc.Longitude, loc.Latitude, &q).Result()
 	if err != nil {
 		fmt.Println("Geoquery Err: ", err)
@@ -134,6 +137,9 @@ func doPipeHM(client *redis.Client, c <-chan []redis.GeoLocation, wg *sync.WaitG
 func init() {
 	// Cobra Flags
 	rootCmd.AddCommand(queryCmd)
-	queryCmd.Flags().IntVarP(&iterations, "num", "n", 100, "number of random queries to execute")
-	queryCmd.Flags().BoolVarP(&v, "verbose", "v", false, "verbose")
+	queryCmd.Flags().IntVarP(&iterations, "num", "n", 100, "Number of random queries to execute")
+	queryCmd.Flags().Float64VarP(&radius, "radius", "r", 25.0, "Search radius in miles")
+	queryCmd.Flags().IntVarP(&resultCount, "limit", "l", 50, "Limit results sent back by Redis")
+	queryCmd.Flags().BoolVarP(&v, "verbose", "v", true, "verbose")
+
 }
