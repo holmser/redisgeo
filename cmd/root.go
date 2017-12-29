@@ -24,6 +24,8 @@ import (
 )
 
 var cfgFile string
+var host string
+var port string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
@@ -46,6 +48,8 @@ func Execute() {
 
 func init() {
 	cobra.OnInitialize(initConfig)
+	rootCmd.PersistentFlags().StringVarP(&host, "host", "r", "localhost", "Redis hostname")
+	rootCmd.PersistentFlags().StringVarP(&port, "port", "p", "6379", "Redis port")
 
 	// Here you will define your flags and configuration settings.
 	// Cobra supports persistent flags, which, if defined here,
